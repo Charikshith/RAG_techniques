@@ -2,14 +2,18 @@ import chromadb
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter, SentenceTransformersTokenTextSplitter
 import numpy as np
-from pypdf import PdfReader
+from langchain_community.document_loaders import PyMuPDFLoader
 from tqdm import tqdm
 
 
 def _read_pdf(filename):
-    reader = PdfReader(filename)
+    loader = PyMuPDFLoader(filename)
     
-    pdf_texts = [p.extract_text().strip() for p in reader.pages]
+    page = []
+    for doc in loader.lazy_load():
+        page.append(doc)
+    
+    pdf_texts = [p.page_content.strip() for p in page]
 
     # Filter the empty strings
     pdf_texts = [text for text in pdf_texts if text]
