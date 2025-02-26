@@ -6,8 +6,8 @@ This document provides insights into common mistakes that can degrade the perfor
 ## Resources
 | Title | Description | Link |
 |-------|------------|------|
-| **Is Your RAG System Scalable?** | Discusses how slow retrieval impacts RAG scalability and provides optimization techniques. | [Download](sandbox:/mnt/data/1740548481572.pdf) |
-| **These 9 Mistakes Are Killing Your RAG** | Highlights critical mistakes in RAG systems and how to avoid them for better retrieval accuracy. | [Download](sandbox:/mnt/data/1740202681423.pdf) |
+| **Is Your RAG System Scalable?** | Discusses how slow retrieval impacts RAG scalability and provides optimization techniques. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Tip%20and%20Tricks/slow_rag.md) |
+| **These 9 Mistakes Are Killing Your RAG** | Highlights critical mistakes in RAG systems and how to avoid them for better retrieval accuracy. | [Link](sandbox:/mnt/data/1740202681423.pdf) |
 
 ## Key Takeaways
 - Slow retrieval is the biggest bottleneck in RAG systems.
