@@ -13,7 +13,7 @@ This course covers the fundamentals of Retrieval-Augmented Generation (RAG), fro
 | **RAG Workflow Explained** | Understanding Indexing, Retrieval, Augmentation, and Generation. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/RAG%20Workflow%20Explained.md) |
 | **RAG: Pros & Cons**       | Key benefits and challenges of Retrieval-Augmented Generation. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/RAG%3A%20Pros%20%26%20Cons.md) |
 | **Essential RAG Terminology** | Must-know terms for mastering RAG. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/Essential%20RAG%20Terminology.md) |
-| **Building RAG from Scratch** | Implementing RAG without frameworks. | [Link](#) |
+| **Building RAG from Scratch** | Implementing RAG without frameworks. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/RAG%204m%20Scratch.md) |
 | **RAG with LangChain**     | Implementing RAG using the LangChain framework. | [Link](#) |
 <!--| **Website-Based RAG**      | Implementing RAG for website content with LangChain. | [Link](#) |
 | **YouTube Transcript RAG** | Applying RAG to YouTube video transcripts using LangChain. | [Link](#) |
