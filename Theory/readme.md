@@ -13,13 +13,13 @@ This course covers the fundamentals of Retrieval-Augmented Generation (RAG), fro
 | **RAG Workflow Explained** | Understanding Indexing, Retrieval, Augmentation, and Generation. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/RAG%20Workflow%20Explained.md) |
 | **RAG: Pros & Cons**       | Key benefits and challenges of Retrieval-Augmented Generation. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/RAG%3A%20Pros%20%26%20Cons.md) |
 | **Essential RAG Terminology** | Must-know terms for mastering RAG. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/Essential%20RAG%20Terminology.md) |
-| **Your RAG Learning Path** | A step-by-step roadmap from basics to advanced concepts. | [Link](#) |
-| **RAG Tech Stack**         | Key libraries and tools for building RAG systems. | [Link](#) |
 | **Building RAG from Scratch** | Implementing RAG without frameworks. | [Link](#) |
 | **RAG with LangChain**     | Implementing RAG using the LangChain framework. | [Link](#) |
-| **Website-Based RAG**      | Implementing RAG for website content with LangChain. | [Link](#) |
+<!--| **Website-Based RAG**      | Implementing RAG for website content with LangChain. | [Link](#) |
 | **YouTube Transcript RAG** | Applying RAG to YouTube video transcripts using LangChain. | [Link](#) |
 | **Agentic RAG with CrewAI** | Implementing an autonomous RAG system with CrewAI. | [Link](#) |
+| **Your RAG Learning Path** | A step-by-step roadmap from basics to advanced concepts. | [Link](#) |
+| **RAG Tech Stack**         | Key libraries and tools for building RAG systems. | [Link](#) |--->
 
 > **Note:** Click on the links to access detailed explanations and implementation guides.
 
