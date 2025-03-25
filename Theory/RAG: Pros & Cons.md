@@ -1,6 +1,6 @@
 ## RAG Benefits and Challenges
 
-Authored by Kalyan KS. To stay updated with LLM, RAG and Agent updates, you can follow me on [LinkedIn](Your LinkedIn Profile Link), [Twitter](Your Twitter Profile Link), and [YouTube](Your YouTube Channel Link).
+Authored by Charikshith. To stay updated with LLM, RAG and Agent updates, you can follow me on [LinkedIn](Your LinkedIn Profile Link) and [YouTube](Your YouTube Channel Link).
 
 ---
 
