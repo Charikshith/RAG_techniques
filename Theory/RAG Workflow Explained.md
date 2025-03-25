@@ -4,6 +4,10 @@ RAG isn't just magic; it's a well-defined process that empowers LLMs.  It works 
 
 ## **(1) Indexing: Building the Knowledge Vault (One-Time Setup) 🏗️**
 
+
+![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/RAG2.PNG)
+
+
 Think of **Indexing** as building a super-organized library 📚 for your LLM to access external knowledge. This step is done **once**, ahead of time, to prepare your knowledge base for lightning-fast lookups.
 
 *   **Parse (Document Digestion): 📄➡️ Text**
@@ -27,13 +31,15 @@ Think of **Indexing** as building a super-organized library 📚 for your LLM to
     *   **What it is:** Finally, we store all these vector embeddings in a **vector database**. This is a special type of database designed for super-fast similarity searches on vectors.
     *   **Why a Vector Database?**  Traditional databases are optimized for exact matches. Vector databases excel at **semantic search** – finding vectors that are *most similar* to a query vector, even if there's no exact match. This is key for RAG's retrieval step!
 
-[Insert Image here - Visual of RAG Indexing steps: Parse, Chunk, Encode, Store with icons and short labels]
+
 
 ---
 
 ## **(2) Retrieval:  The Knowledge Hunt for Each Query 🏹**
 
 Now, for each user query, RAG springs into action with the **Retrieval** step. This is where we hunt for the most relevant knowledge from our indexed vault.
+
+![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/RAG5.PNG)
 
 *   **Query (User Asks): 🤔 Question Input**
     *   **What it is:**  The user poses a question or prompt in natural language.
@@ -49,13 +55,15 @@ Now, for each user query, RAG springs into action with the **Retrieval** step. T
 *   **Relevant Chunks (Knowledge Nuggets Found!): Relevant Vectors ➡️ Text Chunks 📜**
     *   **What it is:** The vector database returns the **text chunks** that correspond to the top-k most similar vectors.  These are our **retrieved, relevant chunks of information** – the knowledge nuggets we've unearthed!
 
-[Insert Image here - Visual of RAG Retrieval steps: Query, Encode, Semantic Search, Relevant Chunks with icons and short labels]
+
 
 ---
 
 ## **(3) Augmentation:  Crafting the Perfect Prompt ✍️**
 
 **Augmentation** is where we prepare the perfect prompt for the LLM, combining the user's query with the retrieved knowledge to give it superpowers!
+
+
 
 *   **Combine (Chunks into Context): Relevant Chunks ➡️ Context 🧩**
     *   **What it is:**  The retrieved relevant chunks are combined to form a coherent **context**.  This might involve simply concatenating the chunks or using more sophisticated methods to structure them logically.
@@ -68,13 +76,15 @@ Now, for each user query, RAG springs into action with the **Retrieval** step. T
         *   **Format the prompt:**  Structure the prompt in a way that's easy for the LLM to understand (e.g., using clear delimiters like "Query:" and "Context:").
         *   **Add specific instructions:**  Like "Be concise" or "Provide detailed explanations," depending on the desired output.
 
-[Insert Image here - Visual of RAG Augmentation step: Relevant Chunks Combine into Context, then Context + Query -> Prompt, with icons and labels]
+![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/RAG3.PNG)
 
 ---
 
 ## **(4) Generation:  LLM Delivers the Informed Answer! 🚀**
 
 Finally, in the **Generation** step, the LLM takes center stage and uses the super-powered prompt to create a fantastic, knowledge-backed response!
+
+![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/RAG4.PNG)
 
 *   **Feed (Prompt to LLM): Prompt ➡️ LLM Input 📤**
     *   **What it is:** The carefully crafted **prompt** (containing the original query, the retrieved context, and instructions) is fed as input to the Large Language Model.
@@ -86,7 +96,6 @@ Finally, in the **Generation** step, the LLM takes center stage and uses the sup
         *   Avoid making up information (hallucinations).
         *   Generate more relevant and informative responses.
 
-[Insert Image here - Visual of RAG Generation step: Prompt fed to LLM, LLM Generating Response, with icons and labels]
 
 ---
 
