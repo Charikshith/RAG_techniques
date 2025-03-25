@@ -3,6 +3,8 @@
 
 Link :- [RAG from Scratch](https://github.com/langchain-ai/rag-from-scratch/tree/main)
 
+Creadit- Langchain and Team 👏👏!
+
 ## Advanced RAG Techniques: A Deeper Dive 🚀
 
 This diagram outlines advanced techniques used to enhance Retrieval-Augmented Generation (RAG) systems beyond the basic 4-step process.  It categorizes these techniques across different stages of the RAG pipeline, from query handling to generation.
