@@ -10,7 +10,8 @@ Ever wondered why your super-smart Large Language Model (LLM) sometimes seems a 
 Think of LLMs as incredibly well-read individuals 🤓. They've devoured massive amounts of text from books, Wikipedia, websites, and even code from GitHub – a truly impressive feat!  However, this vast library of knowledge is like a snapshot in time 📸.
 
 ![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/why_rag1.PNG)
-**The Training Data Time Capsule:**
+
+##**The Training Data Time Capsule:**
 
 LLMs are trained on datasets collected up to a **specific date**.  Imagine their training data is a giant book that gets closed and put on the shelf on, say, December 2023.  Anything that happens *after* that date?  It's not in the book! 🙅‍♀️
 
@@ -20,7 +21,7 @@ LLMs are trained on datasets collected up to a **specific date**.  Imagine their
 *  The winner of the 2024 Olympics 🥇
 *  Breaking news from this week 📰
 
-**The Problem: LLMs in the Dark (Without RAG) 🔦**
+## **The Problem: LLMs in the Dark (Without RAG) 🔦**
 
 ![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/why_rag2.PNG)
 
@@ -37,7 +38,7 @@ So, what happens when you ask an LLM about something that occurred *after* their
 
 
 
-**Enter RAG: The Time Traveler for LLMs! 🚀**
+## **Enter RAG: The Time Traveler for LLMs! 🚀**
 
 ![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/why_rag3.PNG)
 
@@ -61,7 +62,7 @@ Instead of relying *only* on its outdated training data, RAG equips the LLM with
 
 **RAG: Keeping LLMs Smart & Current - Without Constant Retraining! 🧠✨**
 
-**In a Nutshell: RAG vs. No RAG**
+#### **In a Nutshell: RAG vs. No RAG**
 
 | Feature         | Without RAG (Traditional LLM)                                   | With RAG (Enhanced LLM)                                                  |
 |-----------------|--------------------------------------------------------------------|--------------------------------------------------------------------------|
