@@ -11,7 +11,7 @@ Think of LLMs as incredibly well-read individuals 🤓. They've devoured massive
 
 ![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/why_rag1.PNG)
 
-##**The Training Data Time Capsule:**
+## **The Training Data Time Capsule:**
 
 LLMs are trained on datasets collected up to a **specific date**.  Imagine their training data is a giant book that gets closed and put on the shelf on, say, December 2023.  Anything that happens *after* that date?  It's not in the book! 🙅‍♀️
 
