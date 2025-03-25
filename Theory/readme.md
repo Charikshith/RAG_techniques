@@ -10,7 +10,7 @@ This course covers the fundamentals of Retrieval-Augmented Generation (RAG), fro
 |----------------------------|------------|------|
 | **Introduction to RAG**     | A simple explanation of RAG with an example. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/Introduction%20to%20RAG.md) |
 | **Why Use RAG?**           | The limitations of LLMs and how RAG solves them. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/Why%20Use%20RAG%3F.md) |
-| **RAG Workflow Explained** | Understanding Indexing, Retrieval, Augmentation, and Generation. | [Link](#) |
+| **RAG Workflow Explained** | Understanding Indexing, Retrieval, Augmentation, and Generation. | [Link](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/RAG%20Workflow%20Explained.md) |
 | **RAG: Pros & Cons**       | Key benefits and challenges of Retrieval-Augmented Generation. | [Link](#) |
 | **Essential RAG Terminology** | Must-know terms for mastering RAG. | [Link](#) |
 | **Your RAG Learning Path** | A step-by-step roadmap from basics to advanced concepts. | [Link](#) |
