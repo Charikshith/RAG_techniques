@@ -63,7 +63,7 @@ Now, for each user query, RAG springs into action with the **Retrieval** step. T
 
 **Augmentation** is where we prepare the perfect prompt for the LLM, combining the user's query with the retrieved knowledge to give it superpowers!
 
-
+![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/RAG3.PNG)
 
 *   **Combine (Chunks into Context): Relevant Chunks ➡️ Context 🧩**
     *   **What it is:**  The retrieved relevant chunks are combined to form a coherent **context**.  This might involve simply concatenating the chunks or using more sophisticated methods to structure them logically.
@@ -76,7 +76,7 @@ Now, for each user query, RAG springs into action with the **Retrieval** step. T
         *   **Format the prompt:**  Structure the prompt in a way that's easy for the LLM to understand (e.g., using clear delimiters like "Query:" and "Context:").
         *   **Add specific instructions:**  Like "Be concise" or "Provide detailed explanations," depending on the desired output.
 
-![image](https://github.com/Charikshith/RAG_techniques/blob/main/Theory/images/RAG3.PNG)
+
 
 ---
 
